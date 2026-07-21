@@ -11,7 +11,7 @@ This folder is a portfolio of hardware projects — beginner-to-advanced, each w
 | Project | Description | Status |
 |---------|-------------|--------|
 | [Binary Converter & Display](./) | Arduino reads decimal → displays binary on 8 LEDs | 📝 Documented |
-| [Austica Bootcamp Curriculum](./) | 4-week coding & robotics bootcamp design (JSS1–SS3) | 📝 Documented |
+| [Intelligent Water Tank Monitor](./IntelligentWaterTankMonitor/) | Arduino monitors water level and controls pump to prevent overflow | ✅ Completed |
 | _Line-Following Robot_ | _IR sensor array + motor control_ | 🔜 Planned |
 | _Obstacle Avoidance Bot_ | _HC-SR04 ultrasonic + servo_ | 🔜 Planned |
 | _Smart Home IoT_ | _Relay control + Python backend_ | 🔜 Planned |
@@ -22,7 +22,7 @@ This folder is a portfolio of hardware projects — beginner-to-advanced, each w
 
 - **Boards:** Arduino Uno/Nano, ESP32 (future)
 - **Languages:** C/C++ (Arduino), Python (serial bridge)
-- **Tools:** Arduino IDE, Tinkercad, Fritzing, Serial Monitor
+- **Tools:** Arduino IDE, Tinkercad, Wokwi, Serial Monitor
 - **Hardware:** LEDs, sensors, motors, servos, breadboards
 
 ---
@@ -84,12 +84,10 @@ git init
 git add .
 git commit -m "feat: initialize robotics portfolio"
 git branch -M main
-git remote add origin https://github.com/<your-username>/robotics-portfolio.git
+git remote add origin https://github.com/<kinspire-cyber>/robotics-portfolio.git
 git push -u origin main
 ```
 
 ---
-
-> 📌 **Rule:** Every project needs a working demo (photo, video, or GIF).
 
 Made with ❤️ by Kingsley Onyema
